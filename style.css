@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', san-serif;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    color: white;
+}
+
+p {
+    font-size: .7rem;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container {
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 350px;
+    width: 100%;
+}
+
+.main .container .container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main .container .container-items .image-bx {
+    width: 70px;
+    height: 70px;
+    margin: 1rem 0;
+}
+
+.main .container .container-items .image-bx> img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main .container .container-items .contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.main .container .container-items .contents .top-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .container .container-items .contents .top-content> .name-stack {
+    margin-bottom: 1.2rem;
+}
+
+.main .container .container-items .contents .top-content> .name-stack {
+    font-weight: 600;
+}
+
+.main .container .container-items .contents .top-content> .name-stack p:first-child {
+    font-size: 1.2rem;
+}
+
+.main .container .container-items .contents .top-content> .name-stack p:last-child {
+    color: rgb(151, 219, 49);
+    font-size: .8rem;
+}
+
+.main .container .container-items .contents .bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.main .container .container-items .contents .bottom-content>button {
+    background: hsl(0, 0%, 20%);
+    padding: .7rem;
+    margin: .3rem;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.main .container .container-items .contents .bottom-content>button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 500
+}
